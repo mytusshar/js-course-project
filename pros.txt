@@ -1,0 +1,111 @@
+// #include <stdio.h>
+
+// void fun1(int a) {
+//     a = 20;
+//     printf("fun1 = %d \n", a);
+// }
+
+// void fun2(int* a) {
+//     *a = 30;
+//     printf("fun3 = %d \n", *a);
+// }
+
+// int main(void) {
+// 	int a = 10;
+	
+// 	printf("main1 = %d \n", a);
+	
+// 	fun1(a);
+	
+// 	printf("main2 = %d \n", a);
+	
+// 	fun2(&a);
+	
+// 	printf("main3 = %d \n", a);
+	
+// 	return 0;
+// }
+
+////////////////////////////////////////////////
+// #include <stdio.h>
+
+// void fun1(int a) {
+//     a = 20;
+//     printf("fun1 = %d \n", a);
+// }
+
+// void fun2(int* a) {
+//     *a = 30;
+//     printf("fun3 = %d \n", *a);
+// }
+
+// int main(void) {
+// 	int a = 10;
+	
+// 	printf("main1 = %d \n", a);
+	
+// 	fun2(&a);
+	
+	
+// 	printf("main2 = %d \n", a);
+	
+// 	fun1(a);
+	
+// 	printf("main3 = %d \n", a);
+	
+// 	return 0;
+// }
+
+//////////////////////////////////////////////
+
+// #include <stdio.h>
+
+// void fun1() {
+//     static int a = 20;
+//     a++;
+//     printf("fun1 = %d \n", a);
+// }
+
+// void fun2() {
+//     int b = 30;
+//     b++;
+//     printf("fun2 = %d \n", b);
+// }
+
+// int main(void) {
+	
+// 	fun1();
+// 	fun1();
+	
+// 	fun2();
+// 	fun2();
+	
+// 	return 0;
+// }
+
+/////////////////////////////////////////////
+// function fun2() {
+//     var timer = setTimeout(function() {
+//         clearTimeout(timer);
+//         console.log("this is fun2");
+//     }, 1000);
+// }
+
+// function fun1() {
+//     console.log("this is fun1");
+// }
+
+// fun1();
+// fun2();
+// console.log("this is you");
+// console.log("this is me");
+
+//   *
+//   ***
+//  *****
+// *******
+
+// 1 2 3
+// 4 5 6 
+// 7 8 9
+

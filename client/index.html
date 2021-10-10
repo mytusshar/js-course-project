@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Database</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="student.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>            
+        <div class="logo">Student Data</div>
+
+        <div class="block">
+            <h1>Form</h1>
+            <!-- name -->
+            <input class="input" id="input-name" placeholder="Enter Name">
+
+            <!-- rollnum -->
+            <input class="input" id="input-rollnum" placeholder="Enter Roll Number">
+
+            <!-- class -->
+            <input class="input" id="input-class" placeholder="Enter Class">
+
+            <!-- mobile -->
+            <input class="input" id="input-mobile" placeholder="Enter Mobile number">
+
+            <!-- error -->
+            <span id="error-message" class="error">Invalid in student data</span>
+
+            <!-- submit button -->
+            <button class="button" id="button-submit">Submit Student Data</button>
+        </div>
+
+        <div class="block">
+            <!-- get one stundet Data -->
+            <!-- get roll num -->
+            <input class="input" id="stu-roll-num" placeholder="Enter Roll Number">
+            <!-- error -->
+            <span id="error-rollnum" class="error">Invalid in student rollnum</span>
+            <!-- get one stundet button -->
+            <button class="button" id="button-get-student">Get Student</button>
+
+            <!-- get all stundets Data button -->
+            <button class="button" id="button-getall-students">Get All Students</button>
+        </div>
+
+        <div id="result-block">
+            <p id="result-string">Student Data</p>
+            <table id="result-table">
+                <tr>
+                    <th>Rollnum</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Mobile</th>
+                </tr>
+                <!-- <tr>
+                    <td>12</td>
+                    <td>Tushar</td>
+                    <td>12</td>
+                    <td>9999999999</td>
+                </tr> -->
+            </table>
+        </div>
+
+    </body>
+
+</html>
